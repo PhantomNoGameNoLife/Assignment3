@@ -28,10 +28,6 @@ body {
     cursor: pointer;
 }
 
-.space {
-    width: 550px;
-}
-
 .links a {
     display: inline-block;
     color: #111;
