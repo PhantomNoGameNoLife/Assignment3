@@ -11,17 +11,21 @@ body {
 
 .nav-contoiner {
     margin: auto;
-    width: fit-content;
+    width: 90%;
+}
+
+.nav-contoiner .website-logo {
+    float: left;
     padding: 5px;
 }
 
-.display-inline-block {
-    display: inline-block;
-    vertical-align: middle;
+.nav-contoiner .links {
+    float: right
 }
 
-.website-img img {
+.website-logo img {
     width: 170px;
+    cursor: pointer;
 }
 
 .space {
@@ -29,11 +33,17 @@ body {
 }
 
 .links a {
+    display: inline-block;
     color: #111;
     text-decoration: none;
     font-size: 18px;
-    padding: 17px 10px;
+    padding: 16px 12px;
     margin-left: 6px;
+    transition: 0.5s;
+}
+
+.links a:hover{
+    color: #111;
 }
 
 .link-border-top {
@@ -267,7 +277,7 @@ body {
     margin: 0px;
 }
 
-.footer-div-p div div:not(.clr) {
+.footer-div-p div div:not(.clr):not(:last-child) {
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     padding-bottom: 7px;
     margin-bottom: 7px;
@@ -297,7 +307,6 @@ body {
 }
 
 .top-footer .contact-details-f div:not(.clr) {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     padding-bottom: 12px;
     margin-bottom: 12px;
 }
@@ -330,6 +339,7 @@ body {
     background-color: #484540;
     border-radius: 50%;
     cursor: pointer;
+    transition: 0.3s;
 }
 .bottom-footer .social-media img:nth-child(2){
     margin: 0px 8px;
