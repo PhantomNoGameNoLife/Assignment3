@@ -307,6 +307,13 @@ body {
     margin-bottom: 12px;
 }
 
+.contact-details-f{
+    background-image: url(./../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 .contact-details-f a {
     color: #969696;
     text-decoration: none;
